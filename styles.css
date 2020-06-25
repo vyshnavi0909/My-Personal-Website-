@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Crimson Pro', 'EB Garamond', serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    /**line-height: 2; */
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Noto Serif', serif;
+    color: #66BFBF;
+    font-weight: lighter;
+    text-align: center;
+}
+
+hr {
+    border-top: 10px dotted #cbd4d4;
+    width: 6%;
+    border-spacing: 2px;
+    
+}
+
+h3  {
+    color: #11999E;
+}
+
+a {
+    color: #EAF6F6;
+
+}
+
+a:hover {
+    color: thistle;
+}
+
+/**.tag {    
+}
+ */
+
+.skills {
+    margin: 80px auto;
+}
+
+.skill-row {
+ width: 50%; 
+margin: 80px auto;
+text-align: left;
+line-height: 2;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 50px;
+}
+
+.top-cloud {
+   position: relative;
+   left: 400px;
+   height: 60px;
+   top: 50px;
+   
+}
+
+.bottom-cloud {
+    position: absolute;
+    height: 60px;
+    left: 400px;
+}
+
+.mountain {
+    width: 50%;
+    height: 500px;
+}
+
+
+ 
+.middle-container {
+    color: #40514E;
+    font-family: 'Roboto Slab', serif;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    font-family: 'Roboto Slab', serif;
+    padding : 20px;
+}
+
+i {
+    font-size: 30px;
+    padding: 30px;
+}
+
+.profile-img {
+    height: 200px;
+}
+
+.profile {
+    margin: 80px auto;
+    width: 50%;
+}
+
+.web-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.other-skill-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+/**.other-skill{
+    clear: right;      clears the wrap float
+}  */ 
+
+.copy-rights {
+    color: #EAF6F6;
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.get-in-touch {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto 70px ;
+}
+
+
+.contact-me {
+    background: #24ABB0;
+    background-image: -webkit-linear-gradient(top, #24ABB0, #24ABB0);
+    background-image: -moz-linear-gradient(top, #24ABB0, #24ABB0);
+    background-image: -ms-linear-gradient(top, #24ABB0, #24ABB0);
+    background-image: -o-linear-gradient(top, #24ABB0, #24ABB0);
+    background-image: linear-gradient(to bottom, #24ABB0, #24ABB0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 100;
+    padding: 15px;
+    box-shadow: 0px 1px 10px 0px #6D8B8C;
+   -webkit-box-shadow: 0px 1px 10px 0px #6D8B8C;
+   -moz-box-shadow: 0px 1px 10px 0px #6D8B8C;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.contact-me:hover {
+    border: solid #75E0E5 1px;
+    background: #9FE5E7;
+    background-image: -webkit-linear-gradient(top, #9FE5E7, #179195);
+    background-image: -moz-linear-gradient(top, #9FE5E7, #179195);
+    background-image: -ms-linear-gradient(top, #9FE5E7, #179195);
+    background-image: -o-linear-gradient(top, #9FE5E7, #179195);
+    background-image: linear-gradient(to bottom, #9FE5E7, #179195);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+        
+}
+    
+
+/**<a href="mailto:vyshugoud11.com"><i class="fas fa-envelope-square"></i></a>  */
