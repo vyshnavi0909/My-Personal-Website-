@@ -63,8 +63,8 @@ line-height: 2;
 }
 
 .top-cloud {
-   position: relative;
-   left: 400px;
+   position: absolute;
+   right: 20%;
    height: 60px;
    top: 50px;
    
@@ -73,7 +73,7 @@ line-height: 2;
 .bottom-cloud {
     position: absolute;
     height: 60px;
-    left: 400px;
+    left: 20%;
 }
 
 .mountain {
